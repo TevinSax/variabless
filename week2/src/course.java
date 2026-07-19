@@ -13,6 +13,6 @@ public class course {
     public void enrollStudent() {
         this.studentsEnrolled++;
         totalUniversityStudents++;
-        System.out.println(">> 1 student enrolled in " + courseName);
+        System.out.println("Student enrolled " + courseName);
     }
 }
