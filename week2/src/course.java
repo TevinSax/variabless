@@ -17,6 +17,7 @@ public class course {
     }
     public void showPassPercentage(int studentsPassed) {
         double percentage = ((double) studentsPassed / this.studentsEnrolled) * 100;
+        System.out.println(courseName + " Pass Rate: " + percentage + "%");
     }
 
     public void displayCourseInfo() {
@@ -24,4 +25,4 @@ public class course {
     }
 }
 
-}
+
