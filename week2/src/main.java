@@ -10,7 +10,7 @@ public class main {
         history.displayCourseInfo();
 
         System.out.println("\n--- Initial University Stats ---");
-        System.out.println("Total students in university: " + course.totalUniversityStudents);
+        System.out.println("Total number of students in university: " + course.totalUniversityStudents);
 
         System.out.println("\n--- Actions ---");
         math.enrollStudents();
