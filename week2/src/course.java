@@ -15,4 +15,13 @@ public class course {
         totalUniversityStudents++;
         System.out.println("Student enrolled " + courseName);
     }
+    public void showPassPercentage(int studentsPassed) {
+        double percentage = ((double) studentsPassed / this.studentsEnrolled) * 100;
+    }
+
+    public void displayCourseInfo() {
+        System.out.println("Course: " + courseName + " | Enrolled: " + studentsEnrolled);
+    }
+}
+
 }
