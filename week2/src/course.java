@@ -10,7 +10,7 @@ public class course {
         totalUniversityStudents += students;
     }
 
-    public void enrollStudent() {
+    public void enrollStudents() {
         this.studentsEnrolled++;
         totalUniversityStudents++;
         System.out.println("Student enrolled " + courseName);
